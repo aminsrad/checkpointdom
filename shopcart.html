@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopping card</title>
+    <link rel="stylesheet" href="shopcart.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+   
+    
+    <div>
+      
+      
+      <div class="article">
+        <img class="img_a" src="olive-verte.jpg" alt="olive" />
+        <p>price : <span>5</span> TND</p>
+        <button class="undo_add">-</button>
+        <p>0</p>
+        <button class="do_add">+</button>
+        <button class="delete-btn"><i class="far fa-trash-alt"></i></button>
+        <ion-icon name="heart" class="like-btn" size="large"></ion-icon>
+      </div>
+      
+      <div class="article">
+        <img class="img_a" src="datte.jpg" alt="dattes" />
+        <p>prix : <span>20</span> TND</p>
+        <button class="undo_add">-</button>
+        <p>0</p>
+        <button class="do_add">+</button>
+        
+        <button class="delete-btn"><i class="far fa-trash-alt"></i></button>
+        <ion-icon name="heart" class="like-btn" size="large"></ion-icon>
+      </div>
+      
+      <div class="article">
+        <img class="img_a" src="apple.jpg" alt="apple" />
+        <p>price : <span>15</span> TND</p>
+        <button class="undo_add">-</button>
+        <p>0</p>
+        <button class="do_add">+</button>
+        <button class="delete-btn"><i class="far fa-trash-alt"></i></button>
+        <ion-icon name="heart" class="like-btn" size="large"></ion-icon>
+      </div>
+      <h1 class="TOT">Totale : <span id="total">0</span>TND</h1>
+    </div>
+    <script src="shopcart.js"></script>
+  </body>
+</html>

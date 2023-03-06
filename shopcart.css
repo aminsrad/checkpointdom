@@ -1,0 +1,47 @@
+* {
+ 
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00539CFF;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    list-style: none;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20%;
+    border-color: black;
+    border-style: solid;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  .img_a{
+    width: 150px;
+  }
+  h1 {
+    text-align: start;
+  }
+  button {
+    width: 70px;
+  }
+  
+  .like-btn {
+    color: gainsboro;
+  }
+  
+  .TOT{
+    display: flex;
+    justify-content: flex-end;
+  }
